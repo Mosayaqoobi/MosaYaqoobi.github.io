@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <img src="/headshot.jpg" alt="Mosa Yaqoobi headshot" class="headshot" />
+      <h1>Mosa Yaqoobi</h1>
+      <p class="subtitle">Computer Science Student</p>
+    </header>
+
+    <main class="container">
+      <section class="card">
+        <h2>Introduction</h2>
+        <p>
+          I experiment in machine learning models, and make ETL pipelines in
+          Python. My work mainly focuses on deep learning applications, and
+          using C++ to adopt those deep learning models within the environment.
+          I mostly develop in macOS or Linux systems.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>Work Experience</h2>
+        <div class="job">
+          <div class="job-header">
+            <h3>AI Engineer Intern</h3>
+            <p class="company">4AG Robotics</p>
+            <p class="dates">May 2025 – Aug 2025</p>
+          </div>
+          <ul class="points">
+            <li>Developed and deployed computer vision models in PyTorch and Tensorflow to improve detection
+            accuracy for autonomous mushroom harvesting robots, achieving 90%+ accuracy on using production-like test sets.</li>
+            <li>Deployed models by exporting PyTorch to ONNX and integrating inference in C++, achieving up to 2–5×
+            faster in end-to-end latency by matching Python preprocessing and postprocessing to ensure consistent
+            outputs.</li>
+            <li>Improved model performance by 15%+ using active learning and targeted annotation workflows driven by
+            error analysis and iterative retraining.</li>
+            <li>Built C++ APIs for robotic simulation and control using gazebo using concurrency and memory-safety practices</li>
+          </ul>
+        </div>
+
+        <div class="job">
+          <div class="job-header">
+            <h3>Research Assistant</h3>
+            <p class="company">University Of Alberta</p>
+            <p class="dates">Oct 2022 - Apr 2023</p>
+          </div>
+          <ul class="points">
+            <li>Developed a Python-based system using an EEG headset for real-time neurofeedback and device control,
+            analyzing Delta, Theta, Alpha, Beta, and Gamma brainwave patterns.</li>
+            <li>Designed and implemented signal filtering algorithms to reduce noise in ECG waveforms, achieving
+            cleaner signal acquisition and improving data reliability for physician analysis.</li>
+          </ul>
+        </div>
+      </section>
+
+      
+      <section class="card">
+        <h2>Education</h2>
+        <div class="education">
+          <div class="job-header">
+            <h3>B.Sc. Computer Science</h3>
+            <p class="company">University Of Alberta</p>
+            <p class="dates">2022 – Present</p>
+          </div>
+        </div>
+        <div class="education">
+          <div class="job-header">
+            <h3>Electrical Engineering</h3>
+            <p class="company">Red Deer Polytechnic</p>
+            <p class="dates">2020 - 2022</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Projects</h2>
+        <div class="project">
+          <h3>Chat App</h3>
+          <ul class="points">
+            <li>Built a multi-client TCP chat app in C++23 using POSIX sockets and an event-driven kqueue server for non-blocking, concurrent connection handling.</li>
+            <li>Implemented a multithreaded client with a dedicated receiver thread for real-time messaging and graceful shutdown handling.</li>
+          </ul>
+        </div>
+
+        <div class="project">
+          <h3>decentralized Social Platform</h3>
+          <ul class="points">
+            <li>Built a decentralized social platform in a team of 6, developing features across a Django backend, React
+            frontend, and PostgreSQL database.</li>
+            <li>Implemented standardized REST API endpoints to enable interoperability across independent platform instances
+            while supporting platform specific UI and feature extensions.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Interests & Hobbies</h2>
+        <p>
+            Outside of coding and keeping up with the industry, I spend a lot of time hiking, and living in Salmon Arm means great trails are never that far away. 
+            I'm also a longtime badminton fan and enjoy getting on the court whenever I can. I also work out and try to keep in shape.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
